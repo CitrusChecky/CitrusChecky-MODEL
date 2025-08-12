@@ -1,0 +1,13 @@
+train: /content/drive/Othercomputers/My Laptop/bismillah skripsi/MODEL/v1-segmentasi-tingkat-jeruk.yolov8/train/images
+val: /content/drive/Othercomputers/My Laptop/bismillah skripsi/MODEL/v1-segmentasi-tingkat-jeruk.yolov8/valid/images
+test: /content/drive/Othercomputers/My Laptop/bismillah skripsi/MODEL/v1-segmentasi-tingkat-jeruk.yolov8/test/images
+
+nc: 3
+names: ['matang', 'sangat_busuk', 'sedikit_busuk']
+
+roboflow:
+  workspace: tugas-akhir-rivaphys
+  project: segmentasi-tingkat-kebusukan-jeruk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tugas-akhir-rivaphys/segmentasi-tingkat-kebusukan-jeruk/dataset/1

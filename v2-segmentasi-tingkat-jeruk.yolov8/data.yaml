@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['matang', 'sangat_busuk', 'sedikit_busuk']
+
+roboflow:
+  workspace: tugas-akhir-rivaphys
+  project: segmentasi-tingkat-kebusukan-jeruk-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tugas-akhir-rivaphys/segmentasi-tingkat-kebusukan-jeruk-2/dataset/1
