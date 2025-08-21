@@ -7,11 +7,10 @@
   <img src="https://img.shields.io/badge/Model-YOLOv8n-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Kelas-3%20kelas-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/GPU-NVIDIA%20A100-9cf?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Lisensi-MIT-lightgrey?style=for-the-badge" />
 </p>
 
 Model ini mendeteksi dan mengklasifikasikan **tingkat kebusukan buah jeruk** secara **real-time** ke dalam 3 kelas:
-**Matang**, **Sedikit Busuk**, **Sangat Busuk**.  
+**Matang**, **Sangat Busuk**, **Sedikit Busuk**.  
 Model terbaik (v1) meraih performa rata-rata: **Akurasi 0.93 • Presisi 0.84 • Recall 0.94 • F1 0.89**.
 
 ---
@@ -29,7 +28,7 @@ Model terbaik (v1) meraih performa rata-rata: **Akurasi 0.93 • Presisi 0.84 �
   1. https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification  
   2. https://www.kaggle.com/datasets/raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables
 - **Pelabelan & segmentasi:** Roboflow  
-- **Kelas & urutan label:** `matang`, `sedikit_busuk`, `sangat_busuk`
+- **Kelas & urutan label:** `matang`, `sangat_busuk`, `sedikit_busuk`
 
 ### 📊 Rincian Gambar & Anotasi (per Model)
 | Model | Gambar Matang | Gambar Sangat Busuk | Gambar Sedikit Busuk | Anotasi Matang | Anotasi Sangat Busuk | Anotasi Sedikit Busuk |
